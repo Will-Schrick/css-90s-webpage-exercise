@@ -1,0 +1,39 @@
+
+body {
+    background-color: black;
+    background-image:  url("./img/emoji.png");
+}
+.container{
+background-image: url("./img/window.png");
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+main {
+        text-align: center;
+}
+
+h1 {
+    color: blueviolet; 
+    font-size: 4rem;
+    padding-top: 8rem;
+}
+
+p1 {
+    color: blueviolet ;
+}
+
+
+
+
+.left-text {
+    float: left;
+    color: blueviolet;
+    font-style: italic
+
+}
+
+.right-text {
+    float: right;
+    color:green;
+}

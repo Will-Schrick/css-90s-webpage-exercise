@@ -5,35 +5,74 @@ body {
 }
 .container{
 background-image: url("./img/window.png");
-background-size:contain;
+background-size: contain;
 background-repeat: no-repeat;
+width: 800px;
+height: 800px;
+margin:auto;
+/*margin-top: 5%; for fun to push it down in a full webpage*/ 
+
 }
 
-main {
-        text-align: center;
-}
+
 
 h1 {
     color: blueviolet; 
     font-size: 4rem;
-    padding-top: 8rem;
+    padding-top: 6rem;
+    
+   
 }
 
-p1 {
-    color: blueviolet ;
+header {
+    text-align: center;
 }
-
-
-
 
 .left-text {
     float: left;
+    font-style: italic;
     color: blueviolet;
-    font-style: italic
-
+    text-align: center;
+    display: flex;
+    width: 50%;
+    
+ 
 }
 
 .right-text {
     float: right;
     color:green;
+    text-align: center;
+    display: flex;
+    width: 50%;
 }
+
+
+.bigger-text {
+    font-size: 1.5rem;
+}
+
+
+hr {
+    clear: both;
+    width: 85%;
+}
+
+main {
+    text-align: center;
+    margin:1%
+}
+
+b {
+    display: inline;
+  
+}
+
+a {
+    display: inline; 
+   
+}
+
+a:hover {
+    color: red; /* Change the link color to red when hovered */
+  }
